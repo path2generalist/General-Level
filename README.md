@@ -10,12 +10,12 @@
 <a href="https://huggingface.co/papers/2505.04620">[🤗 Paper-HF]</a>
 <a href="https://huggingface.co/General-Level/General-Bench-Closeset">[🤗 Dataset-HF (Close-Set)]</a>
 <a href="https://huggingface.co/General-Level/General-Bench-Openset">[🤗 Dataset-HF (Open-Set)]</a>
-<a href="https://github.com/path2generalist/General-Level">[📝 Github]</a>
 </p>
+
 
 ---
 
-<h1 align="center" style="color: red"><b>General-Level Scorer</b></h1>
+<h1 align="center" style="color: red"><b>General-Level Evaluation Suite</b></h1>
 
 ---
 </div>
