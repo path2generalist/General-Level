@@ -67,8 +67,9 @@ Achieving these levels of synergy becomes progressively more challenging, corres
 
 
 <div align="center">
-<img src='https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/IDTBZ6RgzjO1cRhHPjS8W.png'  width=900px>
+<img src='https://github.com/user-attachments/assets/e9e9a53a-49e7-422f-b2ff-c3cc67f8e16f'  width=900px>
 </div>
+
 
 
 Let’s denote the number of datasets or tasks within the Comprehension task group by M; the number within the Generation task group by N; and the number of NLP tasks by T.
