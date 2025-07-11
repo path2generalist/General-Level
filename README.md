@@ -1,15 +1,3 @@
----
-title: README
-emoji: 🌍
-colorFrom: blue
-colorTo: blue
-sdk: static
-pinned: false
-license: apache-2.0
----
-
-
-
 <div align="center">
 <img src='https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/N8lP93rB6lL3iqzML4SKZ.png'  width=100px>
 
