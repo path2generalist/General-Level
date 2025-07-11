@@ -1,8 +1,26 @@
+---
+title: README
+emoji: 🌍
+colorFrom: blue
+colorTo: blue
+sdk: static
+pinned: false
+license: apache-2.0
+---
+
+
 
 <div align="center">
 <img src='https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/N8lP93rB6lL3iqzML4SKZ.png'  width=100px>
 
 <h1 align="center"><b>On Path to Multimodal Generalist: General-Level and General-Bench</b></h1>
+
+<div align="center">
+<p><strong style="color: #d63384; font-size: 18px;">General-Level Scorer</strong> | <strong style="font-size: 16px;">📖 User Guide:</strong> <a href="README_EN.md" style="font-size: 16px;">English</a> | <a href="README_ZH.md" style="font-size: 16px;">中文</a></p>
+</div>
+
+<br>
+
 <p align="center">
 <a href="https://generalist.top/">[📖 Project]</a>
 <a href="https://generalist.top/leaderboard">[🏆 Leaderboard]</a>
@@ -10,19 +28,10 @@
 <a href="https://huggingface.co/papers/2505.04620">[🤗 Paper-HF]</a>
 <a href="https://huggingface.co/General-Level/General-Bench-Closeset">[🤗 Dataset-HF (Close-Set)]</a>
 <a href="https://huggingface.co/General-Level/General-Bench-Openset">[🤗 Dataset-HF (Open-Set)]</a>
+<a href="https://github.com/path2generalist/General-Level">[📝 Github]</a>
 </p>
 
-
-
-
 ---
-
-<h1 align="center" style="color: red"><b>General-Level Evaluation Suite</b></h1>
-
----
-</div>
-
-
 
 <h1 align="center" style="color:#F27E7E"><em>
 Does higher performance across tasks indicate a stronger capability of MLLM, and closer to AGI?
@@ -57,7 +66,7 @@ We argue that the key to advancing towards AGI lies in the synergy effect—a ca
 **A 5-scale level evaluation system with a new norm for assessing the multimodal generalists (multimodal LLMs/agents).  
 The core is the use of <b style="color:red">synergy</b> as the evaluative criterion, categorizing capabilities based on whether MLLMs preserve synergy across comprehension and generation, as well as across multimodal interactions.**
 
-General-Level evaluates generalists based on the levels and strengths of the synergy they preserve. Specifically, we define three scopes of synergy, ranked from low to high: no synergy, task-level synergy (‘task-task’), paradigm-level synergy (‘comprehension-generation’), and cross-modal total synergy (‘modality-modality’), as illustrated here:
+General-Level evaluates generalists based on the levels and strengths of the synergy they preserve. Specifically, we define three scopes of synergy, ranked from low to high: no synergy, task-level synergy ('task-task'), paradigm-level synergy ('comprehension-generation'), and cross-modal total synergy ('modality-modality'), as illustrated here:
 
 
 <div align="center">
@@ -69,12 +78,11 @@ Achieving these levels of synergy becomes progressively more challenging, corres
 
 
 <div align="center">
-<img src='https://github.com/user-attachments/assets/e9e9a53a-49e7-422f-b2ff-c3cc67f8e16f'  width=900px>
+<img src='https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/IDTBZ6RgzjO1cRhHPjS8W.png'  width=900px>
 </div>
 
 
-
-Let’s denote the number of datasets or tasks within the Comprehension task group by M; the number within the Generation task group by N; and the number of NLP tasks by T.
+Let's denote the number of datasets or tasks within the Comprehension task group by M; the number within the Generation task group by N; and the number of NLP tasks by T.
 
 Now, we demonstrate the specific definition and calculation of each level:
 <div align="center">
